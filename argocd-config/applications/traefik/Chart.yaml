@@ -1,0 +1,10 @@
+apiVersion: v2
+name: traefik
+description: A Helm chart with traefik as subchart
+type: application
+version: 1.0.0
+dependencies:
+  - name: traefik
+    version: 39.0.0
+    repository: https://traefik.github.io/charts
+    alias: traefik
